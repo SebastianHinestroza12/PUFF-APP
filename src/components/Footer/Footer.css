@@ -1,0 +1,90 @@
+.container-footer {
+  margin-top: 130px;
+  padding: 15px;
+  -webkit-box-shadow: 10px -1px 21px -3px rgba(217, 206, 217, 1);
+  -moz-box-shadow: 10px -1px 21px -3px rgba(217, 206, 217, 1);
+  box-shadow: 10px -1px 21px -3px rgba(217, 206, 217, 1);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  margin-top: 5vh;
+  font-size: 11px;
+}
+
+.pufi-logo-footer img {
+  width: 70px;
+  height: 50px;
+  margin-left: 40px;
+}
+
+.pufi-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.pufi-product a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.buySecurity {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+
+.buySecurity span {
+  font-weight: 700;
+}
+
+.security {
+  display: flex;
+  width: 70%;
+  /* border: 1px solid #000; */
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.security img {
+  width: 40px;
+  height: 45px;
+  margin: 5px;
+}
+.security p {
+  margin-top: 10px;
+  color: rgba(29, 31, 31, 0.534);
+}
+
+.pufi-social {
+  display: flex;
+  margin-right: 70px;
+}
+
+.pufi-social h4 {
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.copyRight {
+  border-top: 1px solid rgb(240, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(167, 161, 152, 0.678);
+}
+
+.copyRight h5 {
+  font-size: 10px;
+}
+
+.copyRight img {
+  width: 100px;
+}

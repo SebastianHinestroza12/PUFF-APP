@@ -1,0 +1,44 @@
+.Description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 600px;
+}
+
+.Description img {
+  width: 120px;
+  height: 120px;
+}
+
+.Description h1 {
+  padding: 10px;
+}
+
+hr {
+  height: 2px;
+  width: 7%;
+  background-color: black;
+}
+
+.Description p {
+  width: 330px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Description button {
+  /* border: 1px solid #000 !important; */
+  color: rgba(10, 11, 12, 0.562);
+  border: none;
+  font-size: 17px;
+  letter-spacing: 5px;
+  width: 200px;
+  font-weight: 500;
+}
+
+.Description button:hover {
+  transform: scale(1.1);
+}

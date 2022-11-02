@@ -1,0 +1,37 @@
+.container-gallery {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.redes p {
+  color: rgba(121, 110, 110, 0.637);
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+.redes span {
+  font-size: 45px;
+}
+
+.gallery-image {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.gallery-image img {
+  margin: 1px;
+  width: 270px;
+  height: 260px;
+}
+
+.gallery-image img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

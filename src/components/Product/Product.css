@@ -1,0 +1,30 @@
+.container-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+
+.container-product img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-product button {
+  width: 10em;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  background-color: transparent;
+  border: 4px solid white;
+  color: white;
+  padding: 15px 50px;
+  font-size: 18px;
+}
+
+.container-product button:hover {
+  transform: scale(1.2);
+}

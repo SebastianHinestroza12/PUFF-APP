@@ -1,0 +1,86 @@
+.container-navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+}
+
+.container-logo img {
+  background-color: transparent;
+  width: 180px;
+  height: 160px;
+}
+
+.container-pufi {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 100vh;
+}
+
+.pufi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 20%;
+  border-right: 1px solid rgba(255, 255, 255, 0.384);
+}
+
+.pufi img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.pufi img:hover {
+  transform: scale(1.3);
+}
+h2 {
+  font-size: 15px !important;
+  color: #fff;
+}
+
+.container-user {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 250px;
+  margin-top: 25px;
+  /* border: 1px solid #000; */
+}
+
+.container-user select {
+  background: transparent;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container-user select option {
+  background: rgb(12, 12, 12);
+  color: #fff;
+}
+
+.container-user p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.container-user .separation {
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  height: 1.2vw;
+}
