@@ -11,7 +11,7 @@ function validator(input: any) {
   if (!input) {
     errors = "El email es requerido";
   } else if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input)) {
-    errors = "El Correo es invalido, verifique";
+    errors = "El correo es invalido, verifique";
   }
 
   return errors;
@@ -36,7 +36,7 @@ const Suscribite = () => {
       dispatch(sendEmail(input));
 
       Swal.fire({
-        title: "Subcripcion Exitosa",
+        title: " Suscripción Exitosa",
         icon: "success",
         timer: 3000,
         showCancelButton: false,
